@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-css-course",
+  "version": "1.0.0",
+  "description": "Project of the Tailwind CSS Course of Platzi",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css"
+  },
+  "keywords": [],
+  "author": "Nathaly Riaño Bejarano",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
