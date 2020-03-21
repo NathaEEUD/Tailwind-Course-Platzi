@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.form-control {
+  @apply w-full text-gray-800 py-1 px-4 bg-gray-200 border border-blue-200 rounded leading-snug;
+}
+.form-control:hover {
+  @apply bg-white;
+}
+.form-control:focus {
+  @apply outline-none shadow-outline;
+}
+
+.btn {
+  @apply px-4 py-1 mx-auto block bg-gray-500 rounded shadow-xl;
+}
+.btn-primary {
+  @apply bg-yellow-600;
+}
+.btn:hover {
+  @apply shadow-none bg-gray-600 text-white;
+}
